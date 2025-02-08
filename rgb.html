@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #color{
+                height: 200px;
+                background: linear-gradient(blue,yellow);
+            }
+            #color2{
+                height: 260px;
+                background:radial-gradient(blue 10% ,red 20% ,yellow 30%,pink 40% ) ;
+            }
+            @keyframes example{
+                0% {background-color: yellow;}
+                25%{background-color: hotpink;}
+                50%{background-color: rgb(27, 180, 47);}
+                75%{background-color: saddlebrown;}
+                100%{background-color: rgb(238, 24, 206);}
+            }
+                div{
+                    width: 100px;
+                    height: 100px;
+                    background-color: aquamarine;
+                    animation-name: example;
+                    animation-duration: 10s;
+                }
+            
+        </style>
+    </head>
+    <body>
+        <div id="color"> </div><br>
+        <div id="color2">
+        </div>
+        <div></div>
+    </body>
+</html>
