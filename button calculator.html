@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Calculator for the people who don't know how to calculate if you are using this calculator then you don't no maths</h1>
+</head>
+<body>
+    <button onclick="myfun(2468,8642)">Multiply</button>
+    <button onclick="myfun1(2468,8642)">Add</button>
+    <button onclick="myfun2(2468,8642)">Subtract</button>
+    <button onclick="myfun3(2468,8642)">Divide</button>
+<script>
+    function myfun(x,y)
+    {
+        if (y==undefined){
+            y = 2;
+        }
+        document.write(x*y)
+    }
+    function myfun1(x,y)
+    {
+        document.write(x+y)
+    }
+    function myfun2(x,y)
+    {
+        document.write(x-y)
+    }
+    function myfun3(x,y)
+    {
+        document.write(x/y)
+    }
+    </script>
+   </body>
+</html>
