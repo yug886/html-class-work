@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>arrangement</h1>
+        <p>Arangement of numbers  in order</p>
+        <p id="result"></p>
+        <script>
+            function findmax(){
+                var i;
+                var max = 0;
+                for ( i = 0; i < arguments.length; i++) {
+                    if (arguments[i]){
+                        max = arguments[i];
+                    }
+                    
+                }
+                return max
+            }
+            document.getElementById("result").innerHTML = findmax(5443735336737,744744376538465,5438457485,65864067563746538,844462946475)
+        </script>
+    </body>
+</html>
