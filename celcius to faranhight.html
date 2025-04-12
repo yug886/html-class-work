@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="displayResult()">Convert Celsius to Fahrenheit</button>
+        <p id="result"></p>
+        <script>
+            function convertCelsiusToFahrenheit(celsius) {
+                return (celsius * 9/5) + 32;
+            }
+
+            function displayResult() {
+                var celsius = 67;
+                var fahrenheit = convertCelsiusToFahrenheit(celsius);
+                document.getElementById("result").innerHTML = celsius + " Celsius is equal to " + fahrenheit + " Fahrenheit.";
+            }
+       </script>
+        </form>
+    </body>
+</html>
