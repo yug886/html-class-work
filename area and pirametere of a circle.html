@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <button onclick="displayResult()">Calculate Area and Perimeter of a Circle</button>
+        <p id="result"></p>
+        <script>
+            function Calculateerarea(radius){
+                return  3.14 * radius * radius;
+            }
+            function Calculateercircumference(radius){
+                return  2 * 3.14 * radius
+            }
+            function displayResult() {
+                var radius = 5;
+                var area = Calculateerarea(radius);
+                var circumference = Calculateercircumference(radius);
+                document.getElementById("result").innerHTML = "The area of the circle is " + area + " and the circumference is " + circumference + ".";
+            }
+        </script>
+    </body>
+</html>
