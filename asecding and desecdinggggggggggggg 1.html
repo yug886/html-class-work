@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<h2>Sorting</h2>   
+<button onclick="aseecding()">Accesding</button>
+<button onclick="decesding()">Decesecding</button>
+<p id="result"></p>
+<script>
+var point = [270, 963, 684, 67, 675, 790];
+document.getElementById("result").innerHTML=point;
+function aseecding() {
+    point.sort(function(a, b){return a-b});
+    document.getElementById("result").innerHTML=point;
+}
+function decesding() {
+    point.sort(function(a, b){return b-a});
+    document.getElementById("result").innerHTML=point;
+}
+</script>
+    </body>
