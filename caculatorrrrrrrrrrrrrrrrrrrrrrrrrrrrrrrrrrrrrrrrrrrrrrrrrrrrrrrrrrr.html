@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="result"></p>
+        <button onclick="devide()">Devide </button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="substract()">Substract</button>
+      <button onclick="add()">Add</button>
+        <script>
+            var num1 = 5534;
+            var num2 = 400;
+            function add() {
+               document.getElementById("result").innerHTML = num1 + num2;
+            }
+            function substract() {
+                document.getElementById("result").innerHTML = num1 - num2;
+            }
+            function multiply() {
+                document.getElementById("result").innerHTML = num1 * num2;
+            }
+            function devide() {
+                document.getElementById("result").innerHTML = num1 / num2;
+            }
+             
+</script>
+    </body>
+</html>
